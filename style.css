@@ -53,3 +53,8 @@ body{
     display: flex;
     align-items: center;
 }
+
+.home-content h1{
+    font-size: 56px;
+    font-weight: 600;
+}
