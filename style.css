@@ -39,3 +39,10 @@ body{
     font-weight: 500;
     margin-left: 35px;
 }
+
+.navbar a.active,
+.navbar a:hover {
+    background: linear-gradient(45deg, #f06, #3cf);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
