@@ -71,6 +71,7 @@ body{
 }
 
 .btn{
+    position: relative;
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -83,4 +84,17 @@ body{
     text-decoration: none;
     font-weight: 600;
     letter-spacing: 1px;
+    z-index: 1;
+}
+
+.btn::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    inset: 0;
+    /*background: linear-gradient(45deg, #f06, #3cf, #f06);*/
+    z-index: -1;
+    border-radius: 40px;
+    background-size: 200%;
 }
