@@ -145,6 +145,21 @@ body{
     z-index: 1;
 }
 
+.home-sci a::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, #f06, #3cf);
+    border-radius: 50%;
+    z-index: -1;
+    transition: 5s ease;
+}
+
+.home-sci a:hover::before{
+filter: blur(5px);
+}
+
 .home-sci a::after{
     content: '';
     position: absolute;
@@ -156,6 +171,8 @@ body{
     z-index: -1;
     transition: 5s ease;
 }
+
+
 
 .home-sci a:hover::after{
     transform: scale(0);
