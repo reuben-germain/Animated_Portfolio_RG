@@ -183,8 +183,18 @@ filter: blur(5px);
 }
 
 .home-img .glowing-circle{
+    position: relative;
 width: 100%;
 height: 100%;
 background: yellowgreen;
 border-radius: 50%;
+}
+
+.home-img .glowing-circle::after{
+    content: '';
+    position: absolute;
+    width: 380px;
+    height: 380px;
+    background: pink;
+    border-radius: 50%;
 }
