@@ -58,6 +58,7 @@ body{
 
 .home-content{
     background: yellowgreen;
+    max-width: 500px;
 }
 
 .home-content h1{
