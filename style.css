@@ -180,7 +180,6 @@ filter: blur(5px);
 .home-img{
     width: 410px;
     height: 410px;
-    background: red;
 }
 
 .home-img .glowing-circle{
