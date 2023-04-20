@@ -184,10 +184,13 @@ filter: blur(5px);
 
 .home-img .glowing-circle{
     position: relative;
-width: 100%;
-height: 100%;
-background: yellowgreen;
-border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    background: yellowgreen;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .home-img .glowing-circle::after{
