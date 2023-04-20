@@ -93,7 +93,7 @@ body{
     top: 0;
     left: 0;
     inset: 0;
-    /*background: linear-gradient(45deg, #f06, #3cf, #f06);*/
+    background: linear-gradient(45deg, #f06, #3cf, #f06);
     z-index: -1;
     border-radius: 40px;
     background-size: 200%;
