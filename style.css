@@ -177,3 +177,9 @@ filter: blur(5px);
 .home-sci a:hover::after{
     transform: scale(0);
 }
+
+.home-img{
+    width: 410px;
+    height: 410px;
+    background: red;
+}
